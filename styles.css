@@ -1,0 +1,36 @@
+/*
+ * POMODORO TIMER STYLES
+ *
+ * This is where all your creativity happens!
+ *
+ * Remember: The JavaScript adds these classes to #timer-container:
+ * - .work-mode (during work sessions)
+ * - .break-mode (during break sessions)
+ * - .paused (when paused)
+ * - .completed (briefly when timer finishes - perfect for celebration animations!)
+ *
+ * The JavaScript also updates a CSS custom property:
+ * - --progress (0% to 100% as the timer runs)
+ *
+ * You can use these for different visual states and progress indicators!
+ */
+
+/* Example of using the state classes: */
+/*
+#timer-container.work-mode {
+    background: your-work-color;
+}
+
+#timer-container.break-mode {
+    background: your-break-color;
+}
+*/
+
+/* Example of using the progress variable: */
+/*
+.progress-indicator {
+    width: var(--progress);
+}
+*/
+
+/* Your styles start here! */
