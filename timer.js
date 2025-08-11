@@ -28,6 +28,7 @@ const BREAK_TIME = 5 * 60; // 5 minutes
 let timeRemaining = WORK_TIME;
 let totalTime = WORK_TIME;
 let isRunning = false;
+let isPaused = false;
 let isWorkMode = true;
 let timerInterval = null;
 
@@ -56,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Initialize display
   updateDisplay();
+  updateButtons();
 
   // Set up button click handlers
   startWorkBtn.addEventListener("click", startWork);
@@ -90,7 +92,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function startTimer() {
     if (!isRunning) {
+      console.log("ran");
       isRunning = true;
+      isPaused = false;
       container.classList.remove("paused");
 
       timerInterval = setInterval(function () {
@@ -111,7 +115,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (isRunning) {
       isRunning = false;
       container.classList.add("paused");
+      isPaused = true;
       clearInterval(timerInterval);
+      updateButtons();
+    } else {
+      startTimer();
       updateButtons();
     }
   }
@@ -182,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Enable/disable buttons based on state
     startWorkBtn.disabled = isRunning && isWorkMode;
     startBreakBtn.disabled = isRunning && !isWorkMode;
-    pauseBtn.disabled = !isRunning;
+    pauseBtn.disabled = !isRunning && !isPaused;
 
     // Update button text to show state
     if (isRunning) {
