@@ -2,11 +2,9 @@
 
 ## What You're Building
 
-You're going to create a **functional Pomodoro timer** - a real tool you might actually use while coding! The Pomodoro Technique is a time management method where you work for 25 minutes, then take a 5-minute break.
+You're going to create a **functional Pomodoro timer** - a real tool you might actually use while coding! The Pomodoro Technique is a time management method where you work for 25 minutes, then take a 5-minute break. Your job is to build the interface and make it beautiful, smooth, and satisfying to use.
 
-We've provided the JavaScript that handles the timing logic. Your job is to build the interface and make it beautiful, smooth, and satisfying to use.
-
-This project combines HTML, CSS, **and JavaScript**! Don't worry - you won't write JavaScript yet. Instead, you'll learn how HTML elements can be connected to JavaScript functionality, and how CSS makes everything look polished and professional. But JavaScript is coming soon, and it's awesome! This project gives you an idea of what it can do and hopefully gets you excited to start working with it.
+This project combines HTML, CSS, **and JavaScript**! Don't worry - you won't write JavaScript yet. Instead, you'll learn how HTML elements can be connected to JavaScript functionality, and how CSS makes everything look polished and professional. But JavaScript is coming soon, and it's awesome! This project gives you an idea of what it can do, and hopefully gets you excited to start working with it.
 
 ![Pomodoro Example Screenshot](assets/pomodoro_example.png)
 
@@ -17,9 +15,9 @@ This project combines HTML, CSS, **and JavaScript**! Don't worry - you won't wri
 ```bash
 git clone https://github.com/onja-org/w2_css_animation_project_pomodoro_timer.git
 ```
-
-2. Read through the entire README to understand the project requirements and timelines.
-3. Go back and start with **Part 1**
+2. Open the `src/` folder in your code editor. This is where you'll do all your work.
+3. Read through the entire README to understand the project requirements and timelines.
+4. Go back and start with **Part 1**
 
 ## Project Setup
 
