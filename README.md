@@ -23,9 +23,9 @@ git clone https://github.com/onja-org/w2_css_animation_project_pomodoro_timer.gi
 
 Your project folder contains:
 
-- `index.html` - Skeleton HTML file (you'll build this out)
-- `styles.css` - Empty CSS file (all your styles go here)
-- `timer.js` - Complete JavaScript file (don't edit this! Just read it)
+- `src/index.html` - Skeleton HTML file (you'll build this out)
+- `src/styles.css` - Empty CSS file (all your styles go here)
+- `src/timer.js` - Complete JavaScript file (don't edit this! Just read it)
 - `README.md` - This file you're reading now
 
 ## How the JavaScript Connection Works
